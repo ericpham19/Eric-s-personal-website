@@ -1,3 +1,38 @@
-body {
-    background: blue;
-  }
+
+.nav-bar {
+    background: yellow;
+    width: 100%;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar .nav-menu li a{
+    color:blue;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+
+}
+
+.nav-bar .top-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.nav-bar .nav-menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.nav-bar .logo a{
+    font-size: 40px;
+    color:blue;
+    font-weight: 500;
+    text-decoration: none;
+
+}
