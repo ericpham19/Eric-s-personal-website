@@ -15,7 +15,7 @@
 }
 
 .nav-bar .nav-menu li a{
-    color:white;
+    color:black;
     text-decoration: none;
     list-style: none;
     font-size: 30px;
@@ -57,7 +57,7 @@
 
 .nav-bar .logo a{
     font-size: 40px;
-    color:white;
+    color:black;
     font-weight: 500;
     text-decoration: none;
     
@@ -65,12 +65,12 @@
 
 .home{
     display: flex;
-    background-color: grey;
+    background-color: lavender;
     height: 60vh ;
     min-height: 500x;
     background-size: auto ;
     background-attachment: fixed;
-    color: white;
+    color: black;
 
 } 
 
@@ -102,7 +102,7 @@
 
 }
 .home .home-content .text-3 span{
-    color: blue;
+    color: green;
     font-weight: 500;
 }
 
@@ -226,13 +226,14 @@ table, th, td {
 
 .contact .contact-content .left a{
   
-    display: block;
+    display: inline-block;
     position: relative;
-   
+    left: 10rem;
+    
 }
 .contact .contact-content .right .form{
     display: inline-block;
-    width: 100%;
+    width: auto;
     padding: 12px 20px;
     margin: 8px 0px;
     border: 1px solid green;
@@ -242,5 +243,56 @@ table, th, td {
 
 }
 .contact .contact-content .left{
-    width: 30%;
+    width: 40%;
+    
+}
+
+.contact .contact-content .right{
+    width: 60%;
+}
+
+.form{
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 35em;
+    position: relative;
+}
+
+.termsConditions{
+    margin: 0 auto 5px 80px;
+}
+
+.pageTitle{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.secondaryTitle{
+    color: grey;
+}
+    
+.name {
+    background-color: #ebebeb;
+    color: white;
+}
+.name:hover{
+    border-bottom: 5px solid green;
+    height: 30px;
+    width: 300px;
+    transition: 0.5s ease;
+}
+
+.email{
+    background-color: #ebebeb;
+    height: 2em;
+}
+.email:hover{
+    border-bottom: 5px solid green;
+    height: 30px;
+    width: 300px;
+    transition: 0.5s ease;
 }
