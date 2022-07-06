@@ -225,10 +225,22 @@ table, th, td {
 }
 
 .contact .contact-content .left a{
-    width: 50%;
-   right: 70rem;
-   bottom: 10rem;
+  
     display: block;
     position: relative;
    
+}
+.contact .contact-content .right .form{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+.contact .contact-content .left{
+    width: 30%;
 }
