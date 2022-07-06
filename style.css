@@ -26,11 +26,11 @@
 }
 
 .nav-bar .nav-menu li a:hover{
-    color: crimson;
+    color: red;
 }
 
 .nav-bar .top-banner .logo a span:hover{
-    color: crimson;
+    color: red;
 }
 
 
@@ -115,14 +115,38 @@
 .about .title {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-decoration: underline;
 
 }
-
+.about .about-content{
+    display: flex;
+    align-items: center;
+   
+}
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
     object-fit: cover;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
 
+.about .about-content .left{
+    width: 45%;
+}
+
+.about .about-content .right{
+    width: 55%;
+    
+}
+
+.about .about-content .right .description{
+    text-align: center;
+    padding: 50px;
+    line-height: 1.5;
 
 }
