@@ -259,7 +259,8 @@ table, th, td {
     padding-top: 5px;
     padding-bottom: 5px;
     left: 35em;
-    position: relative;
+    animation: bounce 1.5s infinite;
+
 }
 
 .termsConditions{
@@ -287,6 +288,7 @@ table, th, td {
 }
 
 .email{
+ 
     background-color: #ebebeb;
     height: 2em;
 }
@@ -296,3 +298,54 @@ table, th, td {
     width: 300px;
     transition: 0.5s ease;
 }
+.message{
+    
+    background-color: #ebebeb;
+    height: 10em;
+    overflow:auto;
+}
+
+.message:hover{
+    border-bottom: 5px solid green;
+    height: 12em;
+    width: 300px;
+    transition:  0.5s ease;
+
+}
+
+.formEntry {
+    display:block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: 0.5s ease
+
+}
+
+.submit {
+    font-size: 20px;
+    background-color: lavender;
+
+}
+
+.submit:hover{
+    border-bottom: 5px solid green;
+    height: 3em;
+    width: 300px;
+    transition:  0.5s ease;
+
+}
+
+
+
+@keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  
