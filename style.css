@@ -22,14 +22,16 @@
     margin-left: 25px;
     transition: 0.5s;
 
-   
 
 }
 
 .nav-bar .nav-menu li a:hover{
     color: crimson;
 }
-    
+
+.nav-bar .top-banner .logo a span:hover{
+    color: crimson;
+}
 
 
 
@@ -73,6 +75,10 @@
 
 } 
 
+
+
+/* home section styling */
+
 .home .top-banner{
     margin: auto 0 auto 40px;
 
@@ -103,6 +109,20 @@
 
 
 
+/* about section styling */
 
 
+.about .title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    ;
 
+}
+
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+
+
+}
