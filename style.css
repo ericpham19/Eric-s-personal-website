@@ -111,7 +111,7 @@
 /* about section styling */
 
 .about{
-    height: 60vh;
+    height: 55vh;
 }
 .about .title {
     text-align: center;
@@ -156,7 +156,7 @@
 
 /* skills styling */
 .skills{
-  height: 60vh;
+  height: 25vh;
 }
 .skills .title {
     text-align: center;
@@ -199,5 +199,36 @@ table, th, td {
     border: 1px solid;
     border-color: white;
     border-collapse: collapse;
+    box-shadow: 2px 4px;
     
+}
+
+
+/* contact styling */
+.contact .title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+}
+
+.contact .contact-content{
+       display: flex;
+       align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+  padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.contact .contact-content .left a{
+    width: 50%;
+   right: 70rem;
+   bottom: 10rem;
+    display: block;
+    position: relative;
+   
 }
