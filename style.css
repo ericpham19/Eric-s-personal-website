@@ -255,12 +255,12 @@ table, th, td {
 
 }
 .contact .contact-content .left{
-    width: 40%;
+    width: auto;
     
 }
 
 .contact .contact-content .right{
-    width: 60%;
+    width: auto;
 }
 
 .form{
@@ -457,6 +457,11 @@ table, th, td {
 
     .contact .contact-content .right .form{
         display: block;
+        width: auto;
+    }
+
+    .contact .contact-content .left {
+        width: auto;
     }
 }
 
