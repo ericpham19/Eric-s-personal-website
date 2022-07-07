@@ -12,10 +12,11 @@
     position: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 30px 0;
+    background-color: lavender;
 }
 
 .nav-bar .nav-menu li a{
-    color:black;
+    color:white;
     text-decoration: none;
     list-style: none;
     font-size: 30px;
@@ -35,12 +36,13 @@
 
 
 
-.top-banner{
-    padding: 0 80px;
-    margin: auto;
+.max-width{
+   max-width: 1300px;
+   padding: 0 80px;
+   margin: auto;
 }
 
-.nav-bar .top-banner{
+.nav-bar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,39 +59,49 @@
 
 .nav-bar .logo a{
     font-size: 40px;
-    color:black;
+    color:white;
     font-weight: 500;
     text-decoration: none;
     
 }
 
+.menu-btn{
+    color: white;
+    font-size: 25px;
+    cursor:pointer;
+    display: none;
+
+
+
+}
+/* home section styling */
 .home{
     display: flex;
     background-color: lavender;
-    height: 60vh ;
-    min-height: 500x;
+    background: url(homecover.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px ;
+    height: 100vh;
     background-size: auto ;
     background-attachment: fixed;
-    color: black;
+    color:white;
 
 } 
 
-
-
-/* home section styling */
-
-.home .top-banner{
-    margin: auto 0 auto 40px;
+.home .max-width{
+   display: 100%;
+   display: flex;
 
 }
 
 .home .home-content .text-1 {
-    font-size: 30px;
+    font-size: 70px;
 
 }
 
 .home .home-content .text-2 {
-    font-size: 75px;
+    font-size: 90px;
     font-weight: 600;
     margin-left: -3px;
 
@@ -97,7 +109,7 @@
 
 
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 70px;
     margin: 5px;
 
 }
@@ -110,9 +122,7 @@
 
 /* about section styling */
 
-.about{
-    height: 55vh;
-}
+
 .about .title {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -205,13 +215,17 @@ table, th, td {
 
 
 /* contact styling */
+.contact{
+    width: 100%;
+}
 .contact .title{
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
     padding-bottom: 30px;
+    width: 100%;
 
 }
 
@@ -260,26 +274,31 @@ table, th, td {
     padding-bottom: 5px;
     left: 35em;
     animation: bounce 1.5s infinite;
-
-}
-
-.termsConditions{
-    margin: 0 auto 5px 80px;
 }
 
 .pageTitle{
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
 
 }
 .secondaryTitle{
+    text-align: center;
     color: grey;
 }
+
+
+   
     
 .name {
+    display: block;
     background-color: #ebebeb;
     color: white;
+    margin: auto;
+    
 }
+
+
 .name:hover{
     border-bottom: 5px solid green;
     height: 30px;
@@ -291,6 +310,8 @@ table, th, td {
  
     background-color: #ebebeb;
     height: 2em;
+   display: block;
+    margin: auto;
 }
 .email:hover{
     border-bottom: 5px solid green;
@@ -303,6 +324,8 @@ table, th, td {
     background-color: #ebebeb;
     height: 10em;
     overflow:auto;
+    display: block;
+    margin: auto;
 }
 
 .message:hover{
@@ -327,6 +350,7 @@ table, th, td {
 .submit {
     font-size: 20px;
     background-color: lavender;
+    margin: auto;
 
 }
 
@@ -349,3 +373,23 @@ table, th, td {
     }
   } 
   
+
+
+/* responsive media queries */
+
+@media (max-width:1034px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .nav-bar .nav-menu{
+        position: fixed;
+        width: 100%;
+        left: 0;
+      background: #111;
+      text-align: center;
+        
+    }
+}
+
+
