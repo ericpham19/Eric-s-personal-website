@@ -140,15 +140,14 @@
 
 }
 .about .about-content .left img{
-    height: 500px;
-    width: 600px;
+    height: auto;
     object-fit: cover;
     margin-bottom: 100px;
-    margin-left: 100px;
+   
 }
 
 .about .about-content .left{
-    width: 45%;
+    width: auto
 }
 
 .about .about-content .right{
@@ -234,8 +233,7 @@ table, th, td {
        align-items: center;
         justify-content: space-evenly;
         background-color: white;
-  padding-bottom: 100px;
-    padding-top: 100px;
+  
 }
 
 .contact .contact-content .left a{
@@ -392,11 +390,15 @@ table, th, td {
     }
 }
 
-@media (min-width:1500px){
+@media (min-width:1010px){
 
 }
 
-@media (max-width:500px){
+@media (min-width:500) and (max-width:1000px){
+
+    .nav-bar .nav-menu{
+        margin-top: 50px;
+    }
     .about .about-content{
         display:block;
 
@@ -410,7 +412,7 @@ table, th, td {
         }
     
     .about .about-content .left img{
-        width: 500px;
+        width: auto;
         margin-bottom: auto;
         margin-left: auto;
     }
@@ -426,7 +428,7 @@ table, th, td {
     .skills .skills-content{
         display: block;
     }
-}
+
     .skills .skills-content .left{
         width: auto;
         margin-right: 20px;
@@ -441,5 +443,16 @@ table, th, td {
         margin-left: 10px;
         width: auto;
     }
+    .contact .title{
+        margin-bottom:auto;
+        padding:auto;
+    }
+    .contact .contact-content{
+        display: block;
+    }
 
+    .contact .contact-content .left a{
+        left: 0.5em;
 
+    }
+}
