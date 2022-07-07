@@ -134,7 +134,7 @@
 
 }
 .about .about-content{
-    display: flex;
+    display: block;
     align-items: center;
     
 
@@ -375,10 +375,90 @@ table, th, td {
 
 /* responsive media queries */
 
+@media (min-width: 375px) and (max-width: 499px) {
+
+    .nav-bar {
+        width: 100%;
+        position: fixed;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px 0;
+        background-color: lavender;
+    }
+
+    .nav-bar .max-width {
+        display: block;
+    }
+    
+
+    .nav-bar .logo a{
+        font-size: 30px;
+    }
+
+    .nav-bar .nav-menu {
+        text-align: left;
+    }
+
+    .nav-bar .nav-menu li{
+        display: block;
+
+    }
+    .home{
+        display: flex;
+    }
+
+    .home .max-width .home-content{
+        margin-top: 400px;
+    }
+
+
+    .about .abount-content {
+        display: block;
+    }
+
+    .about .about-content .right{
+        width: auto;
+    }
+
+    .skills{
+        height: auto;
+    }
+
+    .skills .skills-content{
+        display: block;
+    }
+
+    .skills .skills-content .left{
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    
+    .skills .skills-content .right{
+        margin-top: 25px;
+        margin-left:125px;
+    }
+    
+
+    table, th, td{
+     margin: 0 auto 0 auto;
+    }   
+
+    .contact .title {
+        margin-top: 10px ;
+    }
 
 
 
-@media (min-width:500px) and (max-width:1000px){
+}
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 1000px) {
    
     .about .about-content .right{
             width: auto;
@@ -445,55 +525,21 @@ table, th, td {
     }
 
 }
+
+@media (min-width: 1001px){
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
   
     
-
-
-
-
-
-
-@media (min-width:375px) and (max-width:499px){
-
-    .nav-bar {
-        width: 100%;
-        position: fixed;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding: 20px 0;
-        background-color: lavender;
-    }
-
-    .nav-bar .max-width {
-        display: block;
-    }
-    
-
-    .nav-bar .logo a{
-        font-size: 30px;
-    }
-
-    .nav-bar .nav-menu {
-        text-align: left;
-    }
-
-    .nav-bar .nav-menu li{
-        display: block;
-
-    }
-    .home{
-        display: flex;
-    }
-
-    .home .max-width .home-content{
-        margin-top: 400px;
-    }
-
-
-    .about .abount-content {
-        display: block;
-    }
-
-    .about .about-content .right{
-        width: auto;
-    }
-}
