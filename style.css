@@ -79,7 +79,7 @@
     display: flex;
     background-color: lavender;
     background: url(homecover.jpg) center no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-attachment: fixed;
     min-height: 500px ;
     height: 100vh;
@@ -185,8 +185,8 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: lavender;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .skills-content .subheading{
     font-size: 30px;
@@ -399,18 +399,47 @@ table, th, td {
 @media (max-width:500px){
     .about .about-content{
         display:block;
+
     }
-
-
-
-        .about .about-content .right{
+    .home {
+        background: url(homecover.jpg)
+    }     
+    
+    .about .about-content .right{
             width: auto;
         }
-
-
-
+    
+    .about .about-content .left img{
+        width: 500px;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .skills{
+        height: auto;
+    }
+    .skills .title{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-bottom: auto;
+        
+    }
+    .skills .skills-content{
+        display: block;
+    }
 }
+    .skills .skills-content .left{
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
     
-    
+    .skills .skills-content .right {
+        margin-top: 50px;
+        margin-right:  10px;
+        margin-left: 10px;
+        width: auto;
+    }
 
 
