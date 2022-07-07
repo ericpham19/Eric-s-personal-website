@@ -236,31 +236,31 @@ table, th, td {
   
 }
 
-.contact .contact-content .left a{
-  
+
+
+.contact .contact-content .left .links {
     display: inline-block;
-    position: relative;
-    left: 10rem;
+    width: auto;
+    margin: 0 auto 0 auto;
     
 }
 .contact .contact-content .right .form{
-    display: inline-block;
-    width: auto;
-    padding: 12px 20px;
-    margin: 8px 0px;
+    
     border: 1px solid green;
-    border-radius: 4px;
+    border-radius: 20px;
     box-sizing: border-box;
 
 
 }
 .contact .contact-content .left{
     width: auto;
+  
     
 }
 
 .contact .contact-content .right{
     width: auto;
+   
 }
 
 .form{
@@ -375,37 +375,11 @@ table, th, td {
 
 /* responsive media queries */
 
-@media (max-width:1034px){
-    .max-width{
-        padding: 0 50px;
-    }
 
-    .nav-bar .nav-menu{
-        position: fixed;
-        width: 100%;
-        left: 0;
-      background: #111;
-      text-align: center;
-        
-    }
-}
 
-@media (min-width:1010px){
-
-}
 
 @media (min-width:500px) and (max-width:1000px){
-    .nav-bar .nav-menu{
-        margin-top: 50px;
-    }
-    .about .about-content{
-        display:block;
-
-    }
-    .home {
-        background: url(homecover.jpg)
-    }     
-    
+   
     .about .about-content .right{
             width: auto;
         }
@@ -463,7 +437,63 @@ table, th, td {
     .contact .contact-content .left {
         width: auto;
     }
-}
 
+    .contact .contact-content .left .links{
+        display: inline-block;
+        width: auto;
+        margin: 0 auto 0 auto;
+    }
+
+}
+  
     
 
+
+
+
+
+
+@media (min-width:375px) and (max-width:499px){
+
+    .nav-bar {
+        width: 100%;
+        position: fixed;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px 0;
+        background-color: lavender;
+    }
+
+    .nav-bar .max-width {
+        display: block;
+    }
+    
+
+    .nav-bar .logo a{
+        font-size: 30px;
+    }
+
+    .nav-bar .nav-menu {
+        text-align: left;
+    }
+
+    .nav-bar .nav-menu li{
+        display: block;
+
+    }
+    .home{
+        display: flex;
+    }
+
+    .home .max-width .home-content{
+        margin-top: 400px;
+    }
+
+
+    .about .abount-content {
+        display: block;
+    }
+
+    .about .about-content .right{
+        width: auto;
+    }
+}
