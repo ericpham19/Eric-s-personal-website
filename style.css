@@ -394,8 +394,7 @@ table, th, td {
 
 }
 
-@media (min-width:500) and (max-width:1000px){
-
+@media (min-width:500px) and (max-width:1000px){
     .nav-bar .nav-menu{
         margin-top: 50px;
     }
@@ -455,4 +454,11 @@ table, th, td {
         left: 0.5em;
 
     }
+
+    .contact .contact-content .right .form{
+        display: block;
+    }
 }
+
+    
+
