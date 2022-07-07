@@ -147,11 +147,12 @@
 }
 
 .about .about-content .left{
-    width: auto
+    width: auto;
+    text-align: center;
 }
 
 .about .about-content .right{
-    width: 55%;
+    width: auto;
     
 }
 
@@ -452,6 +453,8 @@ table, th, td {
 
 
 
+    
+
 }
 
 
@@ -527,6 +530,12 @@ table, th, td {
 }
 
 @media (min-width: 1001px){
+
+    .about .about-content{
+        display: flex;
+        flex-direction:row;
+
+    }
 
 
 
