@@ -1,10 +1,10 @@
 
- document.getElementByID("menubtn").click(function() {
-    var x = document.getElementByID("menu")
+ document.getElementById("menubtn").click(function() {
+    var x = document.getElementById("menu")
 
     if (x.style.display === "block") {
-       menubtn.addClass(active)
+       x.addClass(active)
     } else {
-        menubtn.removeClass(active)
+        x.removeClass(active)
     }
 })

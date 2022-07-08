@@ -469,6 +469,8 @@ table, th, td {
         left: -100%;
      }
 
+
+     
     .nav-bar .nav-menu li{
         display: block;
         }
@@ -485,10 +487,11 @@ table, th, td {
 
     .nav-bar .nav-menu .active{
         left: 0;
+        display: block;
         }
 
   
-    }
+    
 
     .about .about-content .right{
             width: auto;
