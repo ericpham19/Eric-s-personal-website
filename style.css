@@ -114,7 +114,7 @@
 
 }
 .home .home-content .text-3 span{
-    color: green;
+    color: limegreen;
     font-weight: 500;
 }
 
@@ -125,7 +125,7 @@
 
 .about .title {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
     margin-top: 50px;
     margin-bottom: 50px;
     padding-bottom: 30px;
@@ -171,7 +171,7 @@
 .skills .title {
     text-align: center;
     text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-top: 50px;
     margin-bottom: 30px;
     padding-bottom: 30px;
@@ -209,6 +209,7 @@ table, th, td {
     border: 1px solid;
     border-color: white;
     border-collapse: collapse;
+    text-align: center;
    
     
 }
@@ -225,8 +226,8 @@ table, th, td {
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding-bottom: 30px;
     width: 100%;
 
@@ -295,7 +296,7 @@ table, th, td {
 .name {
     display: block;
     background-color: #ebebeb;
-    color: white;
+    color: black;
     margin: auto;
     
 }
@@ -438,6 +439,38 @@ table, th, td {
 
 
 /* responsive media queries */
+
+@media (min-width: 200px) and (max-width: 414px) {
+    .home-content{
+        text-align: center;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 28px;
+      
+    }
+
+    .home .home-content .text-2 {
+        font-size: 50px;
+        font-weight:500;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+   
+    .home .home-content .text-3 span {
+        font-size: 40px;
+
+
+
+    }
+
+
+
+}
+
+
 
 
 
