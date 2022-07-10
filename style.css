@@ -474,7 +474,7 @@ table, th, td {
 
 
 
-@media (min-width: 300px) and (max-width: 1033px) {
+@media (min-width: 280px) and (max-width: 1033px) {
 
      .nav-menu{
         position: fixed;
